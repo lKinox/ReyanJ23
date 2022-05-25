@@ -9,14 +9,14 @@ import GmailIcon from './GmailIcon.svg'
 export function Contact() {
     return (
         <div className='Contact' id='Contact'>
-            <img src={ContactVec}></img>
+            <img src={ContactVec} alt=''></img>
             <h1>Contacto:</h1>
             <div className='ContactImg'>
-                <a target='_blank' rel="noreferrer" href='https://t.me/ReyanJ23'><img src={TelegramIcon}></img></a> 
-                <a target='_blank' rel="noreferrer" href='https://www.facebook.com/reyan.jimenez'><img src={FacebookIcon}></img></a>
-                <a target='_blank' rel="noreferrer" href='https://www.instagram.com/reyanj23/'><img src={InstagramIcon}></img></a>
-                <a target='_blank' rel="noreferrer" href='https://wa.me/584122532702'><img src={WhatsappIcon}></img></a>
-                <a target='_blank' rel="noreferrer" href='mailto:reyanjimenez@gmail.com'><img src={GmailIcon}></img></a>
+                <a target='_blank' rel="noreferrer" href='https://t.me/ReyanJ23'><img src={TelegramIcon} alt=''></img></a> 
+                <a target='_blank' rel="noreferrer" href='https://www.facebook.com/reyan.jimenez'><img src={FacebookIcon} alt=''></img></a>
+                <a target='_blank' rel="noreferrer" href='https://www.instagram.com/reyanj23/'><img src={InstagramIcon} alt=''></img></a>
+                <a target='_blank' rel="noreferrer" href='https://wa.me/584122532702'><img src={WhatsappIcon} alt=''></img></a>
+                <a target='_blank' rel="noreferrer" href='mailto:reyanjimenez@gmail.com'><img src={GmailIcon} alt=''></img></a>
             </div>
         </div>
     )
