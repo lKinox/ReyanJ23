@@ -1,0 +1,17 @@
+@import url('./components/WebES/Header/Header.css');
+@import url('./components/WebES/Navbar/Navbar.css');
+@import url('./components/WebES/About/About.css');
+@import url('./components/WebES/Skills/Skills.css');
+@import url('./components/WebES/Skills/SkillsBoxes/SkillsBoxes.css');
+@import url('./components/WebES/Hobbies/Hobbies.css');
+@import url('./components/WebES/Hobbies/Cards/CardsFront.css');
+@import url('./components/WebES/Works/Works.css');
+@import url('./components/WebES/Works/WorkBoxes/WorkBoxes.css');
+@import url('./components/WebES/Contact/Contact.css');
+@import url('./components/WebES/Footer/Footer.css');
+
+body {
+  background-color: #010103;
+  padding: 0px;
+  margin: 0px;
+}

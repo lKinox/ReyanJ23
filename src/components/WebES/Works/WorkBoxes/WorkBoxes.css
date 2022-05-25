@@ -1,0 +1,125 @@
+.WorkBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1800px;
+    height: auto;
+    margin: 100px 0px 700px 0px;
+}
+
+.WorkBox {
+    position: relative;
+    display: flex;
+    margin: 0px 60px 0px 60px;
+    width: 760px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.WorkBox img{
+    width: 700px;
+    height: 340px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.WorkBox div a {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1440px) {
+    .WorkBoxes {
+        width: 1400px;
+        height: auto;
+        margin: 80px 0px 600px 0px;
+    }
+    
+    .WorkBox {
+        margin: 0px 40px 0px 40px;
+        width: 520px;
+        height: 280px;
+    }
+    
+    .WorkBox img{
+        width: 500px;
+        height: 250px;
+    }
+  }
+  
+  @media (max-width: 1370px) {
+    .WorkBoxes {
+        width: 1300px;
+        height: auto;
+        margin: 80px 0px 520px 0px;
+    }
+    
+    .WorkBox {
+        margin: 0px 40px 0px 40px;
+        width: 520px;
+        height: 280px;
+    }
+    
+    .WorkBox img{
+        width: 480px;
+        height: 260px;
+    }
+  }
+  
+  @media (max-width: 1080px) {
+    .WorkBoxes {
+        width: 900px;
+        height: auto;
+        margin: 20px 0px 400px 0px;
+    }
+    
+    .WorkBox {
+        margin: 0px 40px 0px 40px;
+        width: 400px;
+        height: 200px;
+    }
+    
+    .WorkBox img{
+        width: 380px;
+        height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .WorkBoxes {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+        margin: 20px 0px 200px 0px;
+        }
+        
+    .WorkBox {
+        margin: 0px 40px 40px 40px;
+        width: 400px;
+        height: 200px;
+        }
+        
+    .WorkBox img{
+        width: 340px;
+        height: 180px;
+        }
+  }
+  @media (max-width: 360px) {
+    .WorkBoxes {
+        width: 300px;
+        margin: 20px 0px 140px 0px;
+        }
+        
+    .WorkBox {
+        margin: 0px 40px 40px 40px;
+        width: 300px;
+        height: 160px;
+        }
+        
+    .WorkBox img{
+        width: 240px;
+        height: 135px;
+        }
+  }

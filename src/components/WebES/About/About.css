@@ -1,0 +1,44 @@
+.About {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 200px 250px 0px 250px;
+}
+
+@media (max-width: 1440px) {
+    .About {
+        font-size: 38px;
+        line-height: 56px;
+        margin: 200px 200px 0px 200px;
+    }
+  }
+  
+  @media (max-width: 1370px) {
+    .About {
+        font-size: 34px;
+        line-height: 52px;
+        margin: 200px 200px 0px 200px;
+    }
+  }
+  
+  @media (max-width: 1080px) {
+    .About {
+        font-size: 30px;
+        line-height: 42px;
+        margin: 120px 160px 0px 160px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .About {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 100px 60px 0px 60px;
+    }
+  }
