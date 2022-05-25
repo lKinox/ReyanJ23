@@ -11,7 +11,7 @@ import IconRedux from './IconRedux.svg'
 function Boxes(props) {
     return (   
         <div className='BoxSkill'>
-            <a target='_blanck' href={props.link} ><img src={props.icon}></img></a>
+            <a target='_blanck' href={props.link} alt=""><img src={props.icon}></img></a>
         </div>
     )
 } 

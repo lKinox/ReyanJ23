@@ -1,6 +1,6 @@
 export function About() {
     return (
-      <div className='About'>
+      <div className='About' id="About">
           <p>
           Un placer conocerte, soy estudiante de física, músico y desarrollador
           web. Tengo 21 años de edad y vivo en Venezuela. Desde niño siempre 

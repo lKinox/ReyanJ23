@@ -6,7 +6,7 @@ function WorkBox(props) {
         <div className=''>   
             <a href={props.link} target='_blanck'>
                 <div className='WorkBox'>
-                    <img src={props.img}></img>
+                    <img src={props.img} alt=""></img>
                 </div>
             </a>
         </div>
