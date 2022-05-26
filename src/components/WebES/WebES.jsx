@@ -7,12 +7,15 @@ import { Contact } from './Contact/Contact.jsx'
 import { Footer } from './Footer/Footer.jsx'
 
 export function WebES() {
+    
     return (
         <div>
             <Header />
-            <About />
-            <Skills />
-            <Hobbies />
+            <div className='fondo1'>
+                <About />
+                <Skills />
+                <Hobbies />
+            </div>
             <Works />
             <Contact />
             <Footer />

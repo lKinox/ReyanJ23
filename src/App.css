@@ -11,8 +11,13 @@
 @import url('./components/WebES/Footer/Footer.css');
 
 body {
-  background-color: #010103;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+
+  background-color: #010103;
+}
+
+.fondo1 {
+  background-color: #010103;
 }
