@@ -19,14 +19,25 @@
 
 .Header div h1 {
   font-family: 'Roboto';
+  font-size: 80px;
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  display: block;
+  justify-content: center;
   letter-spacing: 1px;
   line-height: 94px;
   color: #ffffff;
   z-index: 1;
   margin: 500px 0px 600px 0px;
+  white-space: nowrap;
+  border-right: 2px solid;
+  text-align: center;
+  height: auto;
+  width: 16ch;
+  max-width: 640px;
+
+  animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+  overflow: hidden;
 }
 
 .Header div div {
@@ -48,6 +59,14 @@
   color: #3b61a7;
 }
 
+@keyframes typing {
+  from {width: 0}
+}
+
+@keyframes blink {
+  50% {border-color: transparent}
+}
+
 @media (max-width: 1440px) {
   .Header {
     height: 1024px;
@@ -56,6 +75,7 @@
   .Header div h1 {
     font-size: 75px;
     margin: 400px 0px 400px 0px;
+    line-height: 82px;
   }
 }
 
@@ -76,6 +96,7 @@
   .Header div h1 {
     font-size: 60px;
     margin: 280px 0px 260px 0px;
+    line-height: 66px;
   }
   .HeaderMore{
     font-size: 24px;
@@ -88,11 +109,29 @@
     height: 400px;
   }
   .Header div h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 320px 0px 140px 0px;
+    line-height: 60px;
     text-align: center;
   }
   .HeaderMore{
     font-size: 18px;
   }
 }
+
+@media (max-width: 360px) {
+  .Header {
+    margin-top: 300px;
+    height: 400px;
+  }
+  .Header div h1 {
+    font-size: 31px;
+    margin: 300px 0px 140px 0px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .HeaderMore{
+    font-size: 18px;
+  }
+}
+
