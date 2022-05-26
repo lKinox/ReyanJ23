@@ -44,6 +44,10 @@
   letter-spacing: 1px;
 }
 
+.HeaderMore:hover {
+  color: #3b61a7;
+}
+
 @media (max-width: 1440px) {
   .Header {
     height: 1024px;

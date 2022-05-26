@@ -1,9 +1,34 @@
+import { Link } from "react-scroll";
+
 export function Navbar() {
+
     return (
       <div className='Navbar'>
-        <div><a href='#About'>Sobre mí</a></div>
-        <div><a href='#Works'>Trabajos</a></div>
-        <div><a href='#Contact'>Contacto</a></div>
+        <div>
+        <Link
+          activeClass="active"
+          to="About"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}>Sobre mí</Link>
+        </div>
+        <div>
+        <Link
+          activeClass="active"
+          to="Works"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1600}>Trabajos</Link>
+        </div>
+        <div><Link
+          activeClass="active"
+          to="Contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1600}>Contacto</Link></div>
       </div>
     );
   }
